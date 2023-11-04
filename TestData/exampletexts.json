@@ -1,0 +1,20 @@
+{
+    "example_texts": [
+        {
+            "text_id": 0,
+            "text": "This is an example text to test the program."
+        },
+        {
+            "text_id": 1,
+            "text": "Anotther example, full of commas, semicolons; and a random §."
+        },
+        {
+            "text_id": 2,
+            "text": "This one should be a little longer than the others to test if the model can work with texts of different lenghts or if it handles them differently than the other texts."
+        },
+        {
+            "text_id": 3,
+            "text": "And yet another example here."
+        }
+    ]
+}
