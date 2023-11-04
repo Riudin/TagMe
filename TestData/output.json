@@ -2,29 +2,29 @@
     {
         "work_id": 0,
         "labels": [
-            "misogyny",
-            "ableism"
+            "sexual-assault",
+            "violence"
         ]
     },
     {
         "work_id": 10000000,
         "labels": [
-            "sexism",
-            "misogyny"
+            "dying",
+            "abuse"
         ]
     },
     {
         "work_id": 20000000,
         "labels": [
-            "classism",
-            "sexism"
+            "racism",
+            "mental-illness"
         ]
     },
     {
         "work_id": 30000000,
         "labels": [
-            "classism",
-            "classism"
+            "classsism",
+            "childbirth"
         ]
     }
 ]
