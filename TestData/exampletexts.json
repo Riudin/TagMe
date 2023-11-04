@@ -1,8 +1,18 @@
-{
-    "Text": {
-        "0": "This is an example text to test the program.",
-        "1": "Anotther example, full of commas, semicolons; and a random §.",
-        "2": "This one should be a little longer than the others to test if the model can work with texts of different lenghts or if it handles them differently than the other texts.",
-        "3": "And yet another example here."
+[
+    {
+        "work_id": "00000000",
+        "text": "This is an example text to test the program."
+    },
+    {
+        "work_id": "10000000",
+        "text": "Anotther example, full of commas, semicolons; and a random §."
+    },
+    {
+        "work_id": "20000000",
+        "text": "This one is a little longer than the others to test if the model can work with texts of different lenghts or if it handles them differently than the other texts."
+    },
+    {
+        "work_id": "30000000",
+        "text": "This one is a little longer than the others to test if the model can work with texts of different lenghts or if it handles them differently than the other texts."
     }
-}
+]

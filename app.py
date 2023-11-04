@@ -1,8 +1,9 @@
 # import libraries
+import random
 import json                         # to work with json files
-import pandas as pd                 # dataframe to visualize data (mainly for testing and confirming if the code works)
-#import numpy as np                  # fundamental package for scientific computing. includes advanced mathematical methods like n-dimensional arrays and vectorization
-#import matplotlib.pyplot as plt     # package for plotting data as graphs
+import pandas as pd                 # dataframe to visualize data (mainly for testing and confirming if the code works and importing json as dataframes)
+# import numpy as np                  # fundamental package for scientific computing. includes advanced mathematical methods like n-dimensional arrays and vectorization
+# import matplotlib.pyplot as plt     # package for plotting data as graphs
 
 
 # define variables
@@ -23,13 +24,19 @@ tags_df = pd.read_json(path + tag_file)
 text_df = pd.read_json(path + text_file)
 
 
-# print one of the example tags and texts
-print(tags_df['Tag'][4])
-print(text_df['Text'][2])
+# print one of the example tags and texts (for testing)
+# print(tags_df['tag'][4])
+# print(text_df['text'][1])
 
 
 # define output data
-output_data = ["Bob", "Cindy"]
+output_data = []
+
+for id in text_df['work_id']:
+    # get random tags from the list for testing
+    tag1 = tags_df['tag'][random.randrange(start=6)]
+    tag2 = tags_df['tag'][random.randrange(start=6)]
+    output_data.append({"work_id": id, "labels": [tag1, tag2]})
 
 
 # write output data in json file
